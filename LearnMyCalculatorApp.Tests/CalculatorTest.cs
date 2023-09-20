@@ -16,6 +16,7 @@ namespace LearnMyCalculatorApp.Tests
         {
             var calculator = new Calculator();
             Assert.IsNotNull(calculator);
+            Assert.IsTrue(false); // Will fail the test
         }
         [TestMethod]
         public void AddTest()
